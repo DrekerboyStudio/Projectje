@@ -9,6 +9,7 @@ p {
 H1 {
     color: black;
 }
+
 .logo {
     width: 10%;
     height: 10%;
@@ -17,4 +18,9 @@ H1 {
 .Scottje {
     width: 20%;
     height: 20%;
+}
+
+.pictures {
+    width: 720px;
+    height: 560px;
 }
