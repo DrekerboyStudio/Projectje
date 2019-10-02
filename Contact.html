@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="JS/contact.js"></script>
     <title>Contact</title>
 </head>
 <body>
         <img src="Images/00885 Reindeer Polygon.svg" alt="Logo" class="logo">
         <H1>Contact</H1>
         <li><a href="index.html">Back</a></li>
-        <form>
-            <p>If there are any problems you can send me an email and I will never respond</p>
-            <p>If you really need me for some random reason mail me at drekerboystudio@gmail.com</p>
-            <label>Name</label>
-            <input type='text' autofocus placeholder='Donald Trump'>
-            <label>Email</label>
-            <input type='email' validate placeholder='Example@gmail.com'>
-            <label>Phone</label>
-            <input type='tel' placeholder='06-12345678'>
-            <button>Send</button>
+        <form action="https://formspree.io/drekerboystudio@gmail.com" method="POST">
+            <label>
+                E-mail
+                <input type='email' validate placeholder='Example@gmail.com' class="email">
+            </label>
+            <label>
+                Subject
+                <input type="text" placeholder='Subject' class="subject">
+            </label>
+            <label>
+                Message
+                <textarea class="message"></textarea>
+            </label>
+            <div class="status">
+            </div>
+            <button type="submit" class="submit">Send</button>
         </form>
         
         <footer>
