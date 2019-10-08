@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 body {
-    background-color: gray;  
+    background-color: #B2EF9B;  
 }
 
 p {
@@ -23,4 +24,41 @@ H1 {
 .pictures {
     width: 720px;
     height: 560px;
+}
+
+.video {
+    width: 720px;
+    height: 560px;
+=======
+body {
+    background-color: #B2EF9B;  
+}
+
+p {
+    color: black;
+}
+
+H1 {
+    color: black;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.Scottje {
+    width: 20%;
+    height: 20%;
+}
+
+.pictures {
+    width: 720px;
+    height: 560px;
+}
+
+.video {
+    width: 720px;
+    height: 560px;
+>>>>>>> f0884e55a0b10f2cd2e5dec4a1cbe3ac34004ad5
 }
